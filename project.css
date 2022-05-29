@@ -1,0 +1,83 @@
+.header{
+    top: 0px;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    background-color: purple;
+}
+
+body{background-color: sandybrown;}
+
+#p{
+    font-size: 30px;
+}
+
+.team{color: darkblue;}
+
+.panel{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;
+    grid-gap: 10px;
+    box-shadow: 4px -3px teal;
+}
+.panel>div{
+    color:white;
+    font-weight: 400;
+    background-image: linear-gradient(90deg,
+    blue, orange, yellow);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+#headac{
+    font-size: 40px;
+    color: maroon;
+}
+
+.ac{
+    position: static;
+    background-color: orange;
+    color: white;
+    border: 20px darkblue;
+}
+#name{
+    font-size: 25px;
+    text-align: left;
+    position: relative;
+    animation-name: myanim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myanim{
+    0% {left: 100%;}
+    100% {left: -90%;}
+    
+}
+
+#moments{
+    font-size: 20px;
+    color: black;
+}
+
+#link{
+    background-color: lightslategray;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#footer{background-color: darkblue;
+font-size: 20px;
+right: 0px;
+color: white;
+}
